@@ -1,7 +1,5 @@
 const App = () => {
-  const [count, setCount] = useState(0)
-
-  return (
+return (
     <div>Portfolio</div>
   )
 }

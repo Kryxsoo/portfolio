@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  blank,
 } from "../assets";
 
 export const navLinks = [
@@ -116,55 +117,50 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Chef",
+    company_name: "Jess' Restaurant",
+    icon: blank,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Head Chef at an high-end French Asian infused restaurant located in Kerisdale.",
+      "Managed a team of 9 kitchen staff through teamwork and communication.",
+      "Organization skills to meet tight deadlines and inventory management.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Cook",
+    company_name: "Boulevard, Kitchen Oyster & Bar",
+    icon: blank,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Feb 2019 - Jan 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "•Experienced working at an highly accoladed restaurant.",
+      "Worked with many complicated dishes that required extreme attention to details.",
+      "Catered to small to large exclusive events ranging from 25 to 200 people.",
+      "Required to adapt to constant new techniques and trends.",
+    ],
+  },
+  {
+    title: "Cook",
+    company_name: "Minami, Miku, Gyoza Bar",
+    icon: blank,
+    iconBg: "#383E56",
+    date: "Aug 2015 - Jun 2017",
+    points: [
+      "Large scale operation with a system that allows us to cook for many customers at a fast-paced environment.",
+      "Worked at 3 different restaurants within the same company, each with a different environment.",
+    ],
+  },
+  {
+    title: "Cook",
+    company_name: "Kashigashira | Japan",
+    icon: blank,
+    iconBg: "#E6DEDD",
+    date: "Jan 2014 - Jul 2017",
+    points: [
+      "Worked front-end and back-end at another country through a working holiday visa.",
+      "Customer service and cultural learning experience in a different country",
     ],
   },
 ];
